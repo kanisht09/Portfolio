@@ -1,0 +1,19 @@
+# Portfolio - Full-Stack Software Engineer
+> Full-stack developer with 3+ years of experience building scalable web applications and APIs, currently at Rolls-Royce.
+
+## Technical Expertise
+Working across Angular, Node.js, Express, and cloud-based microservices on Azure. Additional hands-on experience in Java, Spring Boot, Hibernate, PL/SQL, React.js, Next.js, and CSS frameworks (Tailwind, DaisyUI, Bootstrap).
+
+## Key Highlights
+- Designed 70+ RESTful APIs, several serving 100,000+ daily requests at a 99.9% success rate.
+- Built and maintained systems processing 100,000+ transactions monthly, improving speed by up to 30%.
+- Integrated CI/CD pipelines and SonarQube for automated code quality gates in production environments.
+
+## Algorithmic Problem Solving
+Strong foundation in Data Structures and Algorithms. Currently ranked in the top 1.02% globally on [LeetCode](https://leetcode.com), with competitive programming results across CodeChef, Codeforces, and HackerRank. 
+
+## Site Navigation
+- [Home](/#home) - Main portfolio landing page.
+- [Skills](/#skills) - Core technologies, frameworks, and cloud infrastructure.
+- [About](/#about) - Professional background, experience, and problem-solving approach.
+- [Projects](/#projects) - Technical breakdowns of my shipped web applications and API architectures.
