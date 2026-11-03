@@ -1,12 +1,15 @@
 import heroImg from "../assets/hero.svg";
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
   return (
     <div className="bg-emerald-100 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
-          <h1 className="text-7xl font-bold tracking-wider">I'm Kanisht</h1>
+          <h1 className="text-7xl font-bold tracking-wider">
+            I&apos;m Kanisht
+          </h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
             Full-Stack Developer
           </p>
@@ -14,17 +17,26 @@ const Hero = () => {
             turning ideas into reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="https://github.com/kanisht09" target="_blank">
+            <a
+              href="https://github.com/kanisht09"
+              aria-label="Checkout Kanisht's GitHub"
+              target="_blank"
+            >
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
             <a
               href="https://www.linkedin.com/in/kanisht-agarwal-429772195/"
+              aria-label="Connect with Kanisht on LinkedIn"
               target="_blank"
             >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="https://twitter.com/AgarwalKanisht" target="_blank">
-              <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <a
+              href="https://x.com/AgarwalKanisht"
+              aria-label="Follow Kanisht on X (formerly Twitter)"
+              target="_blank"
+            >
+              <FaSquareXTwitter className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
         </article>
